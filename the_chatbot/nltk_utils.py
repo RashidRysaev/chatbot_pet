@@ -1,14 +1,15 @@
 import nltk
 import numpy as np
-
 from nltk.stem.porter import PorterStemmer
 
 
 def tokenize(sentence):
     return nltk.word_tokenize(sentence)
 
+
 def stem(word):
     return PorterStemmer().stem(word=word.lower())
+
 
 def bag_of_words(tokenized_sentence, all_words):
     tokenized_sentence = [stem(word) for word in tokenized_sentence]

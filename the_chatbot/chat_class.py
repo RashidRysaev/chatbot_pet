@@ -6,7 +6,6 @@ from training import x_train, y_train
 
 
 class ChatDataset(Dataset):
-
     def __init__(self):
         self.x_data = x_train
         self.y_data = y_train
