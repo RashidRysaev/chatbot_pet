@@ -1,0 +1,105 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Oi"
+      ],
+      "responses": [
+        "Hey!",
+        "Hello, thanks for visiting!",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye", 
+        "See you later", 
+        "Goodbye", 
+        "See ya"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day!",
+        "Bye! Come back again soon.",
+        "Hope to see you again!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks", 
+        "Thank you", 
+        "That's helpful", 
+        "Thank's a lot!"
+      ],
+      "responses": [
+        "Happy to help!", 
+        "Any time!", 
+        "My pleasure",
+        "Sure, don't mention it."
+      ]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell suitcases, bags and purses.",
+        "We have suitcases, bags and purces.",
+        "We've got diverse bags - for every taste and budget."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take cards?",
+        "Do you accept card payment?",
+        "Can I pay by card?",
+        "Are you cash only?",
+        "What about payment with PayPal?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal",
+        "Cards are the preferred payment method"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days",
+        "Generally about 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Sure, let's try this one: Two guys live in an insane asylum. And one night, one night they decide they don't like living in an asylum any more. They decide they're going to escape! So, like, they get up onto the roof, and there, just across this narrow gap, they see the rooftops of the town, stretching away in the moon light... stretching away to freedom. Now, the first guy, he jumps right across with no problem. But his friend, his friend did not dare make the leap. Y'see... Y'see, he's afraid of falling. So then, the first guy has an idea... He says 'Hey! I have my flashlight with me! I'll shine it across the gap between the buildings. You can walk along the beam and join me!' B-but the second guy just shakes his head. He suh-says... He says 'Wh-what do you think I am? Crazy? You'd turn it off when I was half way across!'",
+        "Well, how about this one: Man goes to doctor. Says he's depressed. Says life seems harsh and cruel. Says he feels all alone in a threatening world where what lies ahead is vague and uncertain. Doctor says, 'Treatment is simple. Great clown Pagliacci is in town tonight. Go and see him. That should pick you up.' Man bursts into tears. Says, 'But doctor…I am Pagliacci.' Good joke. Everybody laugh. Roll on snare drum. Curtains."
+      ]
+    }
+  ]
+}
